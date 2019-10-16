@@ -1,0 +1,30 @@
+package ch09_prj1_AnimalCounter;
+
+public abstract class Animal implements Countable {
+	// TODO This class should include an instance variable that stores the count.
+	private int count;
+
+	public Animal() {
+		super();
+	}
+
+	public Animal(int count) {
+		super();
+		this.count = count;
+	}
+
+	public int getCount() {
+		return count;
+	}
+
+	public void setCount(int count) {
+		this.count = count;
+	}
+
+//	@Override
+//	public String toString() {
+//		return "Animal= " + count;
+//	}
+
+
+}
