@@ -1,0 +1,16 @@
+1. Welcome
+- initialize accounts- display balances checking and saving. 
+- sysout "enter transactions for the month"
+
+2. Get inputs 
+- withdraw or deposit?  txn: string
+- checking or savings? acct: string
+- amount: double
+
+3. Biz Logic
+- withdraw or deposit ammount (add or subtract) from account 
+- continue prompt (while loop) y/n
+- if no, calculate monthly payments and fees
+- display balances 
+4.
+5.
