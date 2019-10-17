@@ -1,5 +1,6 @@
-
-public class Customer {
+// modify the declaration for the Customer class so it implements the Comparable interface. 
+// Then, start the declaration for the compareTo() method.
+public class Customer implements Comparable<Customer> {
 
     private String email;
     private String firstName;
@@ -33,5 +34,9 @@ public class Customer {
 
     public String getLastName() {
         return lastName;
+    }
+
+    public int compareTo(Customer otherCustomer) {
+        return email.compareToIgnoreCase(otherCustomer.email);
     }
 }
