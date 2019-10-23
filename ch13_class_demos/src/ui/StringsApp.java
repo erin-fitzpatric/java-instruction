@@ -12,14 +12,17 @@ public class StringsApp {
 			System.out.println("case sensitive");
 		}
 		
+		// find string length and individual index numbers
 		String name1 = "bob l smith";
 		System.out.println("name1 = "+name1);
 		System.out.println("length = "+name1.length());
 		System.out.println(name1.indexOf("b"));
 		System.out.println(name1.indexOf("b", 1));
+		System.out.println("index of l: " + name1.indexOf("l"));
 		
 		// find first space
 		int idx1 = name1.indexOf(" ");
+		// find first space starting at specific index
 		int idx2 = name1.indexOf(" ", idx1 + 1);
 		
 		System.out.println(idx1);
