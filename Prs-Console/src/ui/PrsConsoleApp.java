@@ -73,7 +73,6 @@ public class PrsConsoleApp {
 		System.out.println(show);
 	}
 
-
 	// get user method
 	private static void getUser(List<User> users) {
 		String getUser = Console.getString("Enter username you would like to get: ");
@@ -111,7 +110,7 @@ public class PrsConsoleApp {
 				u.setEmail(email);
 			}
 		}
-		System.out.println("User number " + number + " email was changed to " + email);
+		System.out.println("User number " + number + " was editted.");
 	}
 
 	// delete user method TODO
