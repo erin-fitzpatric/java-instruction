@@ -1,0 +1,3 @@
+java	Murach's Java Programming	57.50
+mysql	Murach's MySQL	55.50
+andr	Murach's Android Programming	59.50
