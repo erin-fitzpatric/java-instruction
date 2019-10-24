@@ -29,13 +29,13 @@ public class FileIOApp {
 		
 		// filePath is a variable we created
 	
-		System.out.println(filePath.getNameCount());
-		System.out.println(filePath.toString());
-		System.out.println(filePath.toAbsolutePath());
-		System.out.println(Files.isWritable(filePath));
-		System.out.println(Files.isHidden(filePath));
-		System.out.println(filePath.getRoot());
-		for(int i = 0; i < filePath.getNameCount(); i++) {
+		System.out.println(filePath.getNameCount()); //4
+		System.out.println(filePath.toString()); // c:\temp\sub1\sub2\temp.txt
+		System.out.println(filePath.toAbsolutePath()); // c:\temp\sub1\sub2\temp.txt
+		System.out.println(Files.isWritable(filePath)); // true
+		System.out.println(Files.isHidden(filePath)); // false
+		System.out.println(filePath.getRoot()); // C:\
+		for(int i = 0; i < filePath.getNameCount(); i++) { // lists each file 
 			System.out.println(filePath.getName(i));
 		}
 		

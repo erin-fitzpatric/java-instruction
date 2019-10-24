@@ -28,7 +28,6 @@ public class ProductFileDemoApp {
 		
 		
 		// read data from an input file
-		
 		BufferedReader in = new BufferedReader(
 							new FileReader(productsFile));
 		// read data from the stream and print to console
