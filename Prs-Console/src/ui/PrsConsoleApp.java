@@ -93,8 +93,8 @@ public class PrsConsoleApp {
 		String lastName = Console.getString("Enter Last Name: ");
 		String phone = Console.getString("Enter Phone Number (xxx-xxx-xxxx): ");
 		String email = Console.getString("Enter Email: ");
-		Boolean isReviewer = false;
-		Boolean isAdmin = false;
+		boolean isReviewer = false;
+		boolean isAdmin = false;
 		
 		User newUser = new User (id, userName, password, firstName, lastName, phone, email, isReviewer, isAdmin);
 		users.add(newUser);

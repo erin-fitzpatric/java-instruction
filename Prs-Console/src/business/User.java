@@ -8,15 +8,15 @@ public class User {
 	private String lastName;
 	private String phoneNumber;
 	private String email;
-	private Boolean isReviewer;
-	private Boolean isAdmin;
+	private boolean isReviewer;
+	private boolean isAdmin;
 	
 	public User() {
 		super();
 	}
 
 	public User(int id, String userName, String password, String firstName, String lastName, String phoneNumber,
-			String email, Boolean isReviewer, Boolean isAdmin) {
+			String email, boolean isReviewer, boolean isAdmin) {
 		super();
 		this.id = id;
 		this.userName = userName;
@@ -85,19 +85,19 @@ public class User {
 		this.email = email;
 	}
 
-	public Boolean getIsReviewer() {
+	public boolean getIsReviewer() {
 		return isReviewer;
 	}
 
-	public void setIsReviewer(Boolean isReviewer) {
+	public void setIsReviewer(boolean isReviewer) {
 		this.isReviewer = isReviewer;
 	}
 
-	public Boolean getIsAdmin() {
+	public boolean getIsAdmin() {
 		return isAdmin;
 	}
 
-	public void setIsAdmin(Boolean isAdmin) {
+	public void setIsAdmin(boolean isAdmin) {
 		this.isAdmin = isAdmin;
 	}
 
