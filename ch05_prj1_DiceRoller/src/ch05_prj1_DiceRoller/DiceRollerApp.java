@@ -51,10 +51,4 @@ public class DiceRollerApp {
 		return input = sc.next();
 	}
 
-	// static method create
-//	public static int getNumber(int random, Scanner sc) {
-//		System.out.println("Die 1: " + dieOne + "\n");
-//		System.out.println("Die 2: " + dieTwo + "\n");
-//		System.out.println("Total: " + total + "\n");
-//		System.out.println("\n");
 }
