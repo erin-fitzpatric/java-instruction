@@ -19,6 +19,7 @@ public class JUnitPiratesApp {
 		pirates.add(p2);
 		pirates.add(p3);
 		pirates.add(p4);
+		printPirateSummary(pirates);
 		
 		System.out.println("Pirate fight!!!!");
 		p2.loseALimb();
