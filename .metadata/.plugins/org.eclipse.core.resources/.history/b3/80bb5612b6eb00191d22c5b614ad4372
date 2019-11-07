@@ -1,0 +1,97 @@
+package ch05_prj3_GuessingGame;
+import java.lang.Math;
+import java.util.Scanner;
+import java.util.InputMismatchException;
+
+public class GuessingGameApp {
+	public static void main(String[] args) {
+// print welcome message
+		System.out.println("Welcome to the Guess the Number Game \n" +
+						   "++++++++++++++++++++++++++++++++++++\n");
+// create scanner
+// set yes variable
+		Scanner sc = new Scanner(System.in);
+		String moreCalcs = "y";
+		
+	//create while loop is yes
+		while (moreCalcs.equalsIgnoreCase("y")) {
+			
+			//generate randomNumber between 1-100
+			int randomNumber = (int) (Math.random() * 100) + 1;
+			System.out.println(randomNumber); //FOR DEBUGGING ....DELETE THIS LATER
+	
+			//set guess = 0
+			int guess = 0;
+			
+			//create while loop != randomNumber
+			while (guess != randomNumber) {			
+				//prompt "enter number"
+				// guess = scannerinput
+				System.out.print("Enter Number: ");
+				guess = sc.nextInt();
+			
+			//for int i = 1; guess != randomNumber i++
+				//If the user’s guess is higher than the random number, the application should display, “Too high!”
+				//If the user’s guess is lower than the random number, the application should display, “Too low!”
+				//If the user’s guess is more than 10 higher or 10 lower than the random number, the application should display, “Way too high!” or “Way too low!”
+				int i = 1;
+				while (guess != randomNumber) 
+				{
+					// high
+					if (guess > randomNumber) {
+						if ((guess - 10) > randomNumber) {
+							System.out.println("Way too high! Guess again.\n");
+						}	 
+						else if (guess > randomNumber) {
+							System.out.println("Too high! Guess again.\n");
+						}
+					}
+					// low
+					if (guess < randomNumber) {
+						if ((guess + 10) < randomNumber) {
+							System.out.println("Way too low! Guess again.\n");					
+						}
+						else if (guess < randomNumber) {
+							System.out.println("Too low! Guess again.\n");
+						}	
+					}
+					guess = sc.nextInt();
+					i++;	
+				}
+			
+			//print "you got it in" + i + "try"
+			// if messages	
+			//		Number of guesses Message
+			//		================= =======
+			//		<=3 Great work! You are a mathematical wizard.
+			//		>3 and <=7 Not too bad! You've got some potential.
+			//		>7 What took you so long? Maybe you should take
+			//		some lessons.
+			if (i == 1) {
+				System.out.println("You got it in " + i + " try.\n");
+			} else {
+				System.out.println("You got it in " + i + " tries.\n") ;
+			}
+				
+			//while loop prompt continue? (y/n)
+			System.out.println("Try again? (y/n)");
+			
+			
+			// When the user responds to the “Try Again? (y/n): ” prompt, the application should only
+			//	If the user enters invalid data, the application should display an appropriate error 
+			//	message and prompt the user again until the user enters valid data.
+			//  "Error! Entry must be 'y' or 'n'. Try again."
+			
+			//  If the user doesn't enter anything "Error! This entry is required. Try again."
+			// set continue = scanner input
+			}
+		}
+		// Close scanner sc
+		// Goodbye!
+		System.out.println("Good bye!");
+		sc.close();	
+	}
+	
+	
+// create methods
+}

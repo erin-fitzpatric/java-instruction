@@ -1,0 +1,23 @@
+package ui;
+
+public class ArrowheadApp {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}
+
+
+//	This challenge involves the use of control statements. Prompt the user to provide the size of an
+//	arrowhead. The app will print an arrowhead in the console, line by line, for the # of lines given by the
+//	user… looking something like this:
+//	>
+//	>>
+//	>>>
+//	>>
+//	>
+//	Note: if the user enters an even # you’ll need to add a row to accommodate the middle row, the tip of
+//	the arrowhead.

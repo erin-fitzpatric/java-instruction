@@ -1,0 +1,57 @@
+package ui;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
+
+import util.Console;
+
+public class FirstLast6ArraysApp {
+
+	public static void main(String[] args) {
+
+		int firstList[] = new int[3];
+
+		firstList[0] = 1;
+		firstList[1] = 2;
+		firstList[2] = 6;
+		
+		int last = (firstList.length);
+		
+		System.out.println(last);
+
+//	ArrayList<Integer> secondList = new ArrayList<>();
+//	secondList.add(6);
+//	secondList.add(1);
+//	secondList.add(2);
+//	secondList.add(3);
+//	
+//	
+//	ArrayList<Integer> thirdList = new ArrayList<>();
+//	thirdList.add(13);
+//	thirdList.add(6);
+//	thirdList.add(1);
+//	thirdList.add(2);
+//	thirdList.add(3);
+
+//	public boolean firstLast6(int[] nums) 
+//	{
+//		boolean firstLast = false;
+//		
+//		if (
+//		
+//		return firstLast;
+//	}
+	}
+}
+
+// DIRECTIONS
+//	Given an array of ints, return true if 6 appears as either the first or last
+//	element in the array. The array will be length 1 or more.
+//	firstLast6([1, 2, 6]) - true
+//	firstLast6([6, 1, 2, 3]) - true
+//	firstLast6([13, 6, 1, 2, 3]) - false
+//	public boolean firstLast6(int[] nums) 
+//	{
+//	
+//	}

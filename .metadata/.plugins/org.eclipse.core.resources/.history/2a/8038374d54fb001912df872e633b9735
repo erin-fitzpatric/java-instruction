@@ -1,0 +1,21 @@
+package business;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class SquareTest {
+
+	//This should test your square method to assert that it works correctly.
+	@Test
+	public void testSquare() {
+		JUnitTesting t = new JUnitTesting();
+		int output = t.square(6);
+		assertEquals(36, output);
+	}
+
+}
+
+
+//- Run your test to get the green bar.
+//- Change your test so it fails

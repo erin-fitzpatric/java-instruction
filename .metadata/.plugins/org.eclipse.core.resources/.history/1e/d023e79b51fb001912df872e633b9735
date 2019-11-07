@@ -1,0 +1,16 @@
+package business;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class JUnitTestingTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}
+
+

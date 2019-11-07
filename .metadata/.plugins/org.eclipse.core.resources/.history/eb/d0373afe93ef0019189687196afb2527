@@ -1,0 +1,12 @@
+package ch09_prj1_AnimalCounter;
+
+public interface Countable {
+	
+// TODO this interface should include these methods:
+	void incrementCount();
+	void resetCount();
+	int getCount();
+	String getCountString() {
+    	return toString();
+    }
+}

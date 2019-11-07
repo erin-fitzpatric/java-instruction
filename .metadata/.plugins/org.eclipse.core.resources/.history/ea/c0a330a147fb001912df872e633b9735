@@ -1,0 +1,15 @@
+package business;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class PirateCreateTest {
+
+	@Test
+	public void testPirateCreate() {
+		// fail("Not yet implemented");
+		Pirate p = new Pirate("Captain Hook");
+	}
+
+}

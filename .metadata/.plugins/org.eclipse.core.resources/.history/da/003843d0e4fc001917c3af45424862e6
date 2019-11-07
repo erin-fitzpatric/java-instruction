@@ -1,0 +1,24 @@
+package ui;
+
+import util.Console;
+
+public class PigDiceApp {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Pig Dice App!");
+		String choice = "y";
+		
+		while (choice.equalsIgnoreCase("y")) {
+			int input = Console.getInt("# of times to play?: ");
+			System.out.println("Here we go...");
+			
+			
+			
+			choice = Console.getString("Again? (y/n): ");
+		}
+		
+		
+		System.out.println("Good Bye!");
+	}
+
+}

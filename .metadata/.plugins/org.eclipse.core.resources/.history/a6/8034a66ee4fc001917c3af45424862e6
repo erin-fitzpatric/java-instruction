@@ -1,0 +1,11 @@
+package ui;
+
+public class PigDiceApp {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Pig Dice App!");
+
+		System.out.println("Good Bye!");
+	}
+
+}

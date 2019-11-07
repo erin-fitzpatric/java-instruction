@@ -1,0 +1,17 @@
+package business;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CountATest {
+
+	//This should test your square method to assert that it works correctly.
+	@Test
+	public void countATest() {
+		JUnitTesting t = new JUnitTesting();
+		int output = t.square(6);
+		assertEquals(36, output);
+	}
+
+}

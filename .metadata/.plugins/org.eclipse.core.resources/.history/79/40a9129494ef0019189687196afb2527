@@ -1,0 +1,6 @@
+package ch09_prj1_AnimalCounter;
+
+public abstract class Animal implements Countable {
+
+	// TODO This class should include an instance variable that stores the count.
+}

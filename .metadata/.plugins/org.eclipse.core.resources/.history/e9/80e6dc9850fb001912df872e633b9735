@@ -1,0 +1,23 @@
+package ui;
+
+import business.JUnitTesting;
+import util.Console;
+
+public class JUnitTestingApp {
+
+	public static void main(String[] args) {
+		int input = Console.getInt("Enter a number: ");
+		JUnitTesting j = new JUnitTesting();
+		j.square(input);
+	
+
+	}
+
+}
+
+
+//- Accept an int from the user and call the square method of JUnitTesting to 
+//  return the squared version.
+//- Accept a String from the user and call the countA method of JUnitTesting to
+//  return the number of 'A's.
+//* This is to demonstrate that you understand the purpose of the JUnitTesting class

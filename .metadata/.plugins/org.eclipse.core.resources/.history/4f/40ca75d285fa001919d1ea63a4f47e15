@@ -1,0 +1,37 @@
+package business;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
+
+public class MovieCollection {
+	private List<Movie> movies = new ArrayList<>();
+	// TODO
+	public void add(Movie m) {	// add Movie object to internal list
+	 
+	}
+	// TODO
+	public List<Movie> filterMovies(Predicate<Movie> condition)()
+	{
+		
+	}
+	// TODO
+	public double getLowestRating()
+	{
+		
+	}
+	// TODO
+	public double getHighestRating()
+	{
+		
+	}
+	// TODO
+	public double getAverageRating()
+	{
+		
+	}
+	// TODO return number of items in internal list;
+	public void int getSize() {
+	
+	}
+}

@@ -1,0 +1,14 @@
+package ch09_prj1_AnimalCounter;
+
+public class Alligator extends Animal {
+
+	@Override
+	public String toString() {
+		return "Alligator [getCount()=" + getCount() + "]";
+	}
+	//TODO
+	//This class should override the getCountString() method to 
+	//return a string specific to alligators.
+	
+	
+}

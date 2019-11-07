@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Console.java&apos; to &apos;ch08_prj2_PersonManager2/src/ch08_prj2_PersonManager2&apos;&#x0D;&#x0A;- Original project: &apos;ch08_prj2_PersonManager&apos;&#x0D;&#x0A;- Destination element: &apos;ch08_prj2_PersonManager2/src/ch08_prj2_PersonManager2&apos;&#x0D;&#x0A;- Original element: &apos;ch08_prj2_PersonManager.Console.java&apos;" description="Copy compilation unit" destination="=ch08_prj2_PersonManager2/src&lt;ch08_prj2_PersonManager2" element1="/src&lt;ch08_prj2_PersonManager{Console.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1571145170166" units="1" version="1.0"/>
+</session>

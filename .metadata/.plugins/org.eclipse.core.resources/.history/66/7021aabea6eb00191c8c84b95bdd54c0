@@ -1,0 +1,11 @@
+package ch05_prj3_GuessingGame;
+import java.lang.Math;
+
+
+public class GuessingGameApp {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,39 @@
+package ui;
+
+import util.Console;
+
+public class PigDiceApp {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Pig Dice App!");
+		String choice = "y";
+		
+		while (choice.equalsIgnoreCase("y")) {
+			int input = Console.getInt("# of times to play?: ");
+			System.out.println("Here we go...");
+			System.out.println("Played "+input+" games");
+			
+			int firstNumber = (int) (Math.random() * 6) + 1;
+			
+			int highestScore = 
+			// math for highest score
+			
+			
+			
+			choice = Console.getString("Again? (y/n): ");
+		}
+		
+		
+		System.out.println("Good Bye!");
+	}
+
+}
+
+// Additional interesting stats to keep:
+// Highest score
+// Total rolls
+// Highest rolls within a game
+// Average rolls per game
+// Average score per game
+// Most common # rolled
+// How long did we play?

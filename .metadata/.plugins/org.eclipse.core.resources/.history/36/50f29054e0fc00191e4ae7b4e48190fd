@@ -1,0 +1,32 @@
+package ui;
+
+import util.Console;
+
+public class ArrowheadApp {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Arrowhead App!");
+
+		int input = Console.getInt("\nHow big is your arrowhead?: ");
+
+		for (int i = 0; i < input; i++) {
+			while (i < input) {
+				System.out.println("<");
+			}
+		}
+
+		System.out.println("Good bye!");
+	}
+
+}
+
+//	This challenge involves the use of control statements. Prompt the user to provide the size of an
+//	arrowhead. The app will print an arrowhead in the console, line by line, for the # of lines given by the
+//	user… looking something like this:
+//	>
+//	>>
+//	>>>
+//	>>
+//	>
+//	Note: if the user enters an even # you’ll need to add a row to accommodate the middle row, the tip of
+//	the arrowhead.

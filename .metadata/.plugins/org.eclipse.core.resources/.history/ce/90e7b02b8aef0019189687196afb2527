@@ -1,0 +1,6 @@
+package ch09_prj1_AnimalCounter;
+
+public class Sheep extends Animal {
+
+	// implement cloneable example is on pg. 317. 
+}
